@@ -1,0 +1,56 @@
+/* banner */
+.banner-section .banner{margin-top: 200px; background-image: url(img/sotore.jpg); background-size: cover; background-position: center center; height: 400px; display: flex; justify-content: center; align-items: center; color: #f2f2f2;flex-direction: column; }
+.banner-section .banner h1{font-size: 55px;font-weight: 400; letter-spacing: 3px} 
+.banner-section .banner p{font-size: 16px; font-weight: 200; letter-spacing: 1px; margin-top: 20px; text-align: center; line-height: 28px;}
+/* 섹션1 */
+.section1{padding: 100px 0;}
+.section1 .container{max-width:1400px; height: 500px; display: flex; margin: 0px auto; box-sizing: border-box;  
+    box-shadow: 0 3px 7px #d2d2d2}  
+.section1 .banner{width: 50%;}
+.section1 img{width: 100%; height: 100%; object-position: center center; object-fit: cover;}
+.section1 .right{width: 50%; color: #363636; display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(-45deg, #f0efe1,transparent,transparent );  margin-top: 30px;}
+.section1 a{color: #363636;}
+.section1 .store{display: flex;  justify-content: center; }
+.section1 h1{text-align: center; font-size: 26px; font-weight: 700; line-height: 100px; }
+.section1 .offline{width: 50%; padding: 0 30px; box-sizing: border-box; text-align: center; border-right: 1px solid rgba(0,0,0,0.1);}
+.section1 .online p{ margin-bottom: 20px;}
+.section1 .online{width: 50%; padding: 0 30px; box-sizing:  border-box; text-align: center; }
+.section1 .title{display: flex;}
+.section1 .title h2{width: 50%;}
+.section1 h2{text-align: left; margin-bottom: 10px; font-size: 22px;
+font-weight: 600;letter-spacing: 1px;}
+.section1 h4{font-size: 16px; font-weight: 500;line-height: 30px;
+    text-align: left;}
+.section1 p{ font-size: 13px; font-weight: 400; line-height: 20px; text-align: left;}
+.section1 .off-store{cursor: pointer;
+box-sizing: border-box; margin-bottom: 10px; padding-bottom: 10px;}
+.section1 .off-store:first-child{border-bottom: 1px solid #36363657;}
+.section1 .bottom-line{display: block; width: 100%; height: 1px; background-color: rgba(0,0,0,0.1);}
+
+/* 섹션2 */
+.section2{margin-bottom: 300px;}
+.section2 .container{padding-bottom: 100px;}
+.section2 h1{line-height: 60px; font-weight: 400; color: #3e3e3e; max-width: 1400px;
+    margin: 0 auto;}
+.section2 .map-box{width: 100%; margin: 0 auto;height: 400px; }
+.section2 .map{width: 100%; height: 100%;  position: absolute; top: 0; left: 0; display: none;}
+.section2 .map:first-child{display: block;}
+@media(max-width:1024px){
+    .section1 .container{display: block; height: auto; width: 100%;}
+    .section1 .right{width: 100%;padding-bottom: 50px;}
+    .section1 h1{margin-bottom: 30px;}
+    .section1 .banner,.right{width:100%;}}
+
+@media(max-width:524px){
+    .section2{width: 100%;}
+    .section2 iframe{width: 350px; height: 350px;}
+    .section2 .map{width: 350px;}
+    .section2 .map-box{width: 350px;}
+    .section1 h1{font-size: 22px;}
+    .section1 .offline{padding: 0;}
+    .section1 .online{padding: 0;}
+    .section1 .title h2{font-size: 18px;}
+    .section1 .title h4{ font-size: 14px;}
+    .section2 h1{text-align: center;}
+    .section1 p{font-size: 12px;}
+}

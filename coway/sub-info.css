@@ -1,0 +1,82 @@
+.line{display: block; height: 4px; width: 20px; background-color: #488bd8;}
+/* 섹션1 */
+.section1 .main{margin-top: 100px; height:400px; background-image: url(coway-img/main_top.png); background-position: center center; background-size: cover; background-repeat: no-repeat;  }
+.main{display: flex; justify-content: center; align-items: center;}
+.main .text h1{color: white;  font-size: 38px; height: 100%; font-weight: 500; }
+.main .text h2{color: white;  font-size: 58px; height: 100%; font-weight: 700; letter-spacing: 3px;}
+@media(max-width:768px){.main .text h1{font-size: 60px;}}
+.section1 .qa{height: 100%;}
+.section1 .box{background-color: #fff; width: 500px; padding: 20px 30px;   border-radius: 10px; box-sizing: border-box; box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); position: absolute; bottom: -70px; left: 0; text-align: center;}
+.section1 .box h3{font-size: 33px; margin-bottom: 13px; color: #488db8; font-weight: 500; letter-spacing: 1px;}
+.section1 .box input{ margin-bottom: 30px; width: 300px;  line-height: 40px; background-color: #f0f0f0; outline: transparent; border: none; border-radius: 5px;}
+.section1 .box p{font-size: 18px; margin-left: 15px; font-weight: 700; color: #acacac; transition: 0.4s; line-height: 26px;}
+.section1 .box p:hover{color: #488bd8; font-size: 22px;}
+.section1 .box span{margin-right: 10px;}
+.section1 button{color: #2f2f2f; background-color: transparent; border: none; margin-top: 10px; font-weight: 600; font-size: 14px;}
+.section1 button img{width: 25px; margin-left: 2px; position: absolute; top: 50%; left: 100%; transform: translate(0,-55%);}
+/* 섹션2 */
+.section2{margin: 150px 0;}
+.section2 .title h1{font-weight: 600 !important; margin-bottom: 50px;padding: 0 15px; font-size: 36px;}
+.section2 .item{ height: 150px;}
+.section2 .item .box{width: 95%; margin: 10px auto 0;  height: 100%; border-radius: 10px;background-color: #fff; display: flex;
+align-items: center; justify-content: center; border: 1px solid #2f2f2f;overflow: hidden; transition: 0.5s; }
+.section2 .item i{font-size: 40px;}
+.section2 .item h4{font-weight: 600; font-size: 24px;}
+.section2 .item .icon{margin-right: 20px;}
+.section2 .item .hover{position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background-color: #c3e2f7;  border-radius: 10px; transition: 1s; color: #488bd8; font-weight: 600;}
+.section2 .item .hover p{display: flex; position: absolute; bottom: 0; right: 15px; align-items: center;transform: scale(0); transition: 1.5s;}
+.section2 .item:hover .box{border: 1px solid transparent;}
+.section2 .item:hover .hover{left: 0;}
+.section2 .item:hover .hover p{transform: scale(1);}
+
+/* 섹션3 */
+
+.section3 .container .title h1{font-weight: 600 !important; font-size: 36px;}
+.section3{margin: 200px 0;}
+.section3 .title h1{font-size: 44px; font-weight: 300;}
+.section3 .flex{display: flex;}
+.section3 .flex .text{padding: 10px;}
+.section3 .flex h6{font-size: 22px; margin: 20px 0;}
+.section3 .flex p{font-size: 18px; color: #656a70; line-height: 24px;}
+.section3 .video-banner{margin-top: 20px;}
+.section3 img{width: 100%;object-position: center center; object-fit: cover;}
+.section3 .btn{padding: 0px 14px;}
+.section3 button{background-color: #488bd8;; color:white;  width: 100%; height: 80px; border: none; text-align: left; padding: 0px 50px;  box-sizing: border-box; font-family: 800; letter-spacing: 2px; font-size: 22px; display: flex; align-items: center;}
+.section3 .img-box{overflow: hidden; margin-left: 5px;}
+.section3 button img{filter: brightness(10); width: 30px; left: -100%; }
+.section3 button:hover img{animation: cc 1s linear infinite;}
+@keyframes cc{0%{left:3-100%} 100%{left: 0;}}
+
+/* 섹션4 */
+
+.section4 .item h2{font-size: 34px; font-weight: 600;padding-bottom: 5px;}
+.section4 .item .title{margin-bottom: 30px; border-bottom: 1px solid rgba(124, 124, 124, 0.1); cursor: pointer;}
+.section4 .item .text{ 
+display: none;}
+.section4 .item p{font-size: 23px; line-height: 50px; overflow: hidden; padding-left: 15px; box-sizing: border-box; cursor: pointer;}
+.section4 .item p::after{content: ""; display: block; position: absolute; width: 100%; height: 100%; background: linear-gradient(to right,#b8d3f1,#fff); top: 0; left: -100%; z-index: -1; transition: 1s; opacity: 0.5; box-shadow: 0 0 0 5px #d2d2d2;}
+.section4 .item p:hover::after{left: 0;}
+/* 섹션5 */
+.section5{margin-top: 100px;}
+.section5 h2{font-weight: 600; font-size: 28px;}
+.section5 .call{display: flex; background-color: #e8f3ff;
+border-radius: 5px; padding: 30px 40px 40px; box-sizing: border-box; 
+width: 95%;}
+.section5 .call .right{width: 60%; margin-left: 20px;}
+.section5 .call .time{display: flex;}
+.section5 .call .time h5{width: 30%;}
+.section5 .call .time h5:last-child{width: 70%;}
+.section5 .call .left{color: #2981b8; width: 40%; margin-right: 15px;}
+.section5 .call h4{font-size: 24px; margin-bottom: 20px; font-weight: 600;}
+.section5 .call h3{font-size: 32px; margin: 0; }
+.section5 .call h5{font-size: 18px; margin-bottom: 5px;}
+.section5 .call .time {color: #777777;}
+.section5 .item1 p{color: #a1a1a1; margin-top: 10px; }
+.section5 button{background-color: transparent; border: none;}
+.section5 .item2 .title{display: flex; justify-content: space-between;}
+.section5 .item2 .title button{display: flex; align-items: flex-end; font-size: 16px; font-weight: 500;}
+.section5 .item2 button img{width: 20px;}
+.section5 .info{height: 100%; width: 100%; font-size: 18px;}
+.section5 .info span{color: #488db8;}
+.section5 .info th{white-space: nowrap; width: 80%; text-overflow: ellipsis; overflow: hidden;}
+.section5 .info tr{ line-height:35px; display: flex; justify-content: space-between; }

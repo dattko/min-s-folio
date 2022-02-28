@@ -1,0 +1,123 @@
+p,h2,h1,h6,h3{color: #181b20;}
+/* 섹션1 */
+.section1{max-width: 90%; margin: 100px auto;}
+.section1 .container-fluid{background-image: url(coway-img/gallery_intro.jpg);height: 700px; background-position: center center; background-size: cover; }
+.section1 .text-box{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); text-align: center;}
+.section1 .text-box h6{font-size: 18px;font-weight: 400; letter-spacing: 3px; margin: 10px 0 20px; line-height: 30px; margin: 0;}
+.section1 .text-box h1{ font-size: 48px; color: #181b20;font-weight: 400;}
+.section1 .text-box .btn{width: 200px;line-height: 25px; background-color: #181b20; border-radius: 0; letter-spacing: 2px;text-transform: uppercase; color: white; margin-top: 30px;}
+@media(max-width:718px){
+    .section1 .container-fluid{height: 500px;}
+    .section1 .text-box h1{font-size: 24px;}
+    .section1 .text-box h6{font-size: 10px; line-height: 18px;}
+}
+/* 섹션2 */
+.section2 .intro{padding: 200px 0 30px; }
+.section2 .img-box{margin-bottom: 20px;}
+.section2 .img-box img{width: 100%; height: 280px; object-fit: cover; object-position: center center; transition: 1s;}
+.section2 .title-box h2{}
+.section2 .img-box img:hover{transform:scale(1.4); z-index: 50;}
+.section2 .title-box p{ font-size: 12px;  }
+.section2 .intro2{padding-bottom: 100px;}
+.section2 .item1{padding-left: 0;  display: flex; align-items: center; justify-content: center; flex-direction: column; margin-bottom: 50px; padding: 70px 0;}
+.section2 .item2{padding-right: 0;}
+.section2 .intro2 .text{padding: 20px 40px;box-sizing: border-box; text-align: center;}
+.section2 .intro2 .text h3{margin-bottom: 60px;}
+.section2 .intro2 span{text-align: center; display: block; width: 70px; height: 40px; background-color: #414141; color: white; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 12px; margin: 10px auto 20px;}
+.section2 .intro2 p{font-size: 16px;  letter-spacing: 1px; line-height: 30px;}
+.section2 .intro2 p:first-child{margin-bottom: 40px;}
+.section .intro2 .btn{width: 200px; height: 40px; background-color: rgb(65, 65, 65); color: white; letter-spacing: 1px; border-radius: 0; font-size: 14px; font-weight: 300;}
+
+/* 섹션3 */
+.section3 .company{padding: 50px 0;}
+.section3 .item{opacity: 1; display: flex; justify-content: center;align-items: center;}
+.section3 .item img{width: 150px;}
+
+/* 섹션4 */
+.section4{margin: 100px 0;}
+.section4 .title{margin-bottom: 30px;}
+.section4 .title h1{font-weight: 300; line-height: 50px; font-size: 44px; letter-spacing: 1px;}
+.section4 .title-btn{text-align: center; margin-bottom: 40px;}
+.section4 .title-btn button{position: absolute; bottom: 0; right: 0; border: none; background-color: transparent;}
+.section4 .title-btn h4{font-size: 15px; font-weight: 400; width: 120px; margin: 0 auto; line-height: 38px; border-radius: 10px; background-color: #414141; color: white;}
+.section4 .item{margin-bottom: 50px; padding:  0 10px;}
+.section4 .img-box{border-radius: 40px}
+.section4 .pro1 .img-box{background-color: #e6eff0; border-radius: 40px}
+.section4 .pro2 .img-box{background-color: #eef0e6; border-radius: 40px}
+.section4 .pro3 .img-box{background-color: #e6f0ea; border-radius: 40px}
+.section4 .pro4 .img-box{background-color: #f0e6e8; border-radius: 40px}
+.section4 .item:nth-child(4n){margin-right: 0px;}
+.section4 img{width: 100%; object-position: center center; object-fit: cover;}
+.section4 .price{text-align: center;}
+.section4 .price h2{font-weight: 400;  font-size: 20px;}
+.section4 .price p{font-size: 16px;color: #181b20;}
+.section4 .pro{display: none;}
+.section4 .pro1{display: block;}
+
+
+/* 섹션4 ca */
+.section4{margin: 100px 0;}
+.section4 .ca h5{text-align: center; color: white; margin-top: 20px; font-size: 16px;}
+.section4 .ca .item-box{background-color: #71c4eb; border-radius: 10px; display: flex; flex-direction: column;justify-content: center; align-items: center; margin-bottom: 30px; padding: 15px 0; cursor: pointer; overflow: hidden;}
+.section4 .ca .icon{width: 80px; }
+.section4 .ca .bg{position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-position: center center; object-fit: cover; opacity: 1; display: none;  filter: brightness(0.6);}
+.section4 .ca .item:first-child .bg{display: block;}
+.section4 .ca .item-box:hover .bg{display: block !important;}
+
+/* 섹션7 */
+.section7 img{width: 100%;}
+.section7{margin: 150px 0;}
+.section7 .text-box{padding: 0 50px; box-sizing: border-box;}
+.section7 .name{display: flex; justify-content: space-between;}
+.section7  h5{font-weight: 400; color: #181b20;font-size: 15px;}
+.section7 .img-box{margin-bottom: 50px;}
+.section7 .contents1 h1{font-weight: 400; font-size: 28px; margin: 0 0 10px;  line-height: 48px;}
+.section7 .contents1 strong{color: #264986;}
+.section7 .contents1,.contents2 p{font-size: 14px; color: #656a70; letter-spacing: 1px; }
+.section7 .contents1 p{margin-bottom: 100px;}
+.section7 .contents2 h5{margin-bottom: 20px;}
+.section7 .grid{display: grid; grid-template-columns: repeat(2,1fr); grid-auto-rows: 140px;font-size: 18px; gap: 40px; letter-spacing: 1px;}
+.section7 .grid span{display: block; width: 30px;height: 3px; background-color: #71c4eb; margin-bottom: 20px;}
+.section7 .btn{width: 100%; padding: 0; margin-top: 60px;}
+.section7 .btn button{width: 200px; height: 40px; border:none; background-color: #71c4eb; color: white; margin-top: 20px;}
+
+/* 섹션8 */
+.section8 .container-fluid{height: 600px; background-image: url(coway-img/sleep_care_sec1BG.jpg); background-position: center center; background-size: cover;}
+.section8 .box{max-width: 600px; min-width: 330px; width: 50%; background-color: white; height: 100%; position: absolute; left: 5%; top: 0; padding: 50px 80px; box-sizing: border-box; text-align: center;}
+.section8 .text{padding-top: 40px;}
+.section8 .box h5{color: #656a70;letter-spacing: 1px; font-size: 18px; text-align: center;}
+.section8 .box p{font-size: 18px; padding: 0 40px; line-height: 35px; }
+.section8 .box h2{font-size: 36px; font-weight: 400;letter-spacing: 1px; line-height: 50px; margin: 20px 0 30px;}
+@media(max-width:1024px){
+    .section8 .box{padding: 50px 10px;}
+    .section8 .box h2{font-size: 30px;}
+    .section8 .box p{font-size: 14px;}
+}
+.section8 .box .btn{width: 200px; height: 40px; border:none; background-color: #414141; color: white; margin-top: 20px;}
+
+/* 섹션9 */
+.section9{margin: 100px 0;}
+.section9 img{width: 100%;}
+.section9 .title p{font-size: 12px; letter-spacing: 2px; color: #656a70;}
+.section9 .title h1{font-size: 44px; font-weight: 300; line-height: 60px;}
+.section9 .title button{position: absolute; bottom: 0; right: 0; border: none; background-color: transparent;}
+.section9 .text-box h2{font-weight: 200; line-height: 40px;}
+.section9 .text-box p{font-size: 12px; color: #656a70;}
+.section9 .contents{padding: 0;}
+.section9 .contents:nth-child(1){margin-bottom: 50px;}
+@media(max-width:768px){
+    .section9 .btn{position: relative; left: 0;}
+}
+/* 섹션10 */
+.section10 .text-box{text-align: center; margin-bottom: 80px;}
+.section10 .text-box h2{font-weight: 300; font-size: 44px; line-height: 80px;}
+.section10 .text-box p{ font-weight: 400; font-size: 16px; color: #656a70; letter-spacing: 1px; line-height: 30px;}
+.section10 img{width: 100%;}
+.section10 .text-box .btn{width: 150px; height: 50px; margin-top: 50px; border: 1px solid rgba(40,45,51,0.2); border-radius: 0; background-color: white; font-size: 16px;}
+.section10 .text-box .btn i{margin-left: 10px;}
+
+
+
+
+
+

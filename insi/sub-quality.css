@@ -1,0 +1,42 @@
+.section1{width: 100%; height: 100vh; background-color: #e4e4e4; margin-bottom: 300px; display: flex;}
+.section1 .item{width: calc(100% / 3); height: 100%; overflow: hidden;
+cursor: pointer;}
+.section1 .back-img{width: 100%; height: 100%;
+    filter:grayscale(1) brightness(0.7); transition: 1s;}
+.section1 .back-img img{width: 100%; height: 100%;
+object-fit: cover; object-position: center center;}
+.section1 .item .title{color: #fff; z-index: 50; position: absolute;
+    top: 50%; left: 50%; transform: translate(-50%,-50%);transition: 1s;}
+.section1 .btn{ width: 50px; height: 50px; position: absolute; top: 50%;
+left: 110%; transform: translate(0,-50%); overflow: hidden;}
+.section1 .btn img{ width: 100%; left: -100%; transition: 0.5s; filter: brightness(0.2);}
+.section1 .item3 .btn img{filter: brightness(0.5);}
+.section1 .title h1{ font-size: 63px; white-space: nowrap; transition: 1s;}
+.section1 .title h2{ font-size: 45px; white-space: nowrap; transition: 1s;}
+.section1 .img-g{width: 100%; height: 100%; position: absolute; top: 0; left: 0;}
+.section1 .img-box{position: absolute;}
+.section1 .img-box img{width: 100%; object-position: center center; object-fit: cover; height: 100%;}
+.section1 .item1 .title{}
+.section1 .item1 .img-box1{width: 400px; height: 200px;  left: 20px; bottom: 20px;}
+.section1 .item1 .img-box2{ width: 250px; height: 350px; top: 20px; right: 20px;}
+.section1 .item1 .img-box3{ top: 70px; left: 20px; width: 40%; height: 250px;}
+/* 섹션 텍스트 */
+.section .item .text{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.3);z-index: 100;
+left: -100%; transition: 1s;}
+.section .item .text .back{width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+background-color: rgba(255, 255, 255, 0.8);left: -100%;
+transition: 2s; flex-direction: column;}
+.section .item .text p{ width: 60%; line-height: 33px; font-size: 20px; font-weight: 600; color: #464646;}
+.section .item .text p span{font-size: 25px; color: #2f2f2f; font-weight: 700; }
+.section .item .text p:last-child{text-align: right; margin-top: 50px;}
+.section .item .text p a{color: #757575;}
+/* 호버 */
+.section1 .item:hover .back-img{filter: grayscale(0) brightness(1);}
+.section1 .item:hover .title h1{color: #2f2f2f;}
+.section1 .item:hover .title h2{color: #2f2f2f;}
+.section1 .item:hover .title img{left: 0;}
+.section1 .item .text .back a:hover {color: #000000;}
+.ww .title{opacity: 0;}
+.ww .text{left: 0 !important;}
+.ww .text .back{left: 0 !important;}

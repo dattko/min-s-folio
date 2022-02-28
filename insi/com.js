@@ -1,0 +1,10 @@
+$(".menu_bar").click(function(){
+    $("body").toggleClass("on")
+    $(".login-box").css({display:"none"})
+});
+$(".login-btn").click(function(){
+    $(".login-box").css({display:"flex"})
+})
+$(".cancle").click(function(){
+    $(".login-box").css({display:"none"})
+})

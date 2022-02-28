@@ -1,0 +1,25 @@
+.section1{width: 100%; height: 40vh; margin: 200px auto 0;
+display: flex; align-items: center; justify-content: center; font-size: 150px; color: #2f2f2f; background-color: #fff;}
+.section1 h1{font-weight: 800;}
+
+/* 섹션1 */
+.section2{}
+.section2 .title h1{text-align: center; font-size: 130px; letter-spacing: 6px; color: #2f2f2f; position: absolute; top: 0; left: 50%; transform: translate(-50%,-50%); font-weight: 800;z-index: 1; color: #2f2f2f;  white-space: nowrap; text-align: center; width: 990px;}
+
+
+.section2 .img-box img{width: 100%; }
+
+/* 섹션2 */
+.section3{background-color: #ececec; padding-bottom: 150px;
+    margin-bottom: 300px;}
+.section3 .white{ width: 90%; margin: 0 auto; padding-top: 200px;
+text-align: center;}
+.section3 .white h2{font-size:90px; text-transform: uppercase; color: #1f1f1f; font-weight: 600;}
+.section3 .title .h2{font-size: 100px; letter-spacing: 5px; color: #31442e;}
+.section3 .vid{height: 70vh; width: 100%; margin-top: 50px;}
+.section3 .vid video{ width: 100%; height: 100%; object-fit: cover; object-position: center center;}
+.section3 .text-box{margin-top: 50px; width: 50%; cursor: pointer;}
+.section3 .text-box .text{ }
+.section3 .text-box h2{text-align: left; font-size:68px; font-weight: 700; margin-bottom: 10px;}
+.section3 .text-box p{ text-align: left; font-size: 23px;line-height: 40px; display: none; }
+
