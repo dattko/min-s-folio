@@ -142,9 +142,8 @@ header a{text-decoration: none;}
 .title-click .img-group{display: block;}
 /* 인포 */
 .info{width: 100%; height: 100vh; display: none;}
-.info .container{width: 80%; height: 60%;position: absolute; top: 50%; left: 50%;
-transform:  translate(-50%,-50%); display: flex;}
-.info .box{}
+.info .container{width: 1400px; height: 600px; position: absolute; top: 50%; left: 50%;
+transform:  translate(-50%,-50%); display: flex; justify-content: space-between; align-items: center;}
 .info{width: 100%; height: 100vh;}
 .info .text-img{margin-top: 30px;}
 .info .left{width: 40%;}
